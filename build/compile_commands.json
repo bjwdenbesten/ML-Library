@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/benjamindenbesten/Desktop/ml-lib/build",
+  "command": "/usr/bin/clang++  -I/Users/benjamindenbesten/Desktop/ml-lib/include -isystem /opt/homebrew/include/eigen3 -g -std=gnu++20 -arch arm64 -o CMakeFiles/MLLibrary.dir/src/linearRegression.cpp.o -c /Users/benjamindenbesten/Desktop/ml-lib/src/linearRegression.cpp",
+  "file": "/Users/benjamindenbesten/Desktop/ml-lib/src/linearRegression.cpp",
+  "output": "CMakeFiles/MLLibrary.dir/src/linearRegression.cpp.o"
+},
+{
+  "directory": "/Users/benjamindenbesten/Desktop/ml-lib/build",
+  "command": "/usr/bin/clang++  -I/Users/benjamindenbesten/Desktop/ml-lib/include -isystem /opt/homebrew/include/eigen3 -g -std=gnu++20 -arch arm64 -o CMakeFiles/MLLibrary.dir/src/utils.cpp.o -c /Users/benjamindenbesten/Desktop/ml-lib/src/utils.cpp",
+  "file": "/Users/benjamindenbesten/Desktop/ml-lib/src/utils.cpp",
+  "output": "CMakeFiles/MLLibrary.dir/src/utils.cpp.o"
+},
+{
+  "directory": "/Users/benjamindenbesten/Desktop/ml-lib/build",
+  "command": "/usr/bin/clang++  -I/Users/benjamindenbesten/Desktop/ml-lib/include -isystem /opt/homebrew/include/eigen3 -g -std=gnu++20 -arch arm64 -o CMakeFiles/read_csv.dir/training_examples/read_csv.cpp.o -c /Users/benjamindenbesten/Desktop/ml-lib/training_examples/read_csv.cpp",
+  "file": "/Users/benjamindenbesten/Desktop/ml-lib/training_examples/read_csv.cpp",
+  "output": "CMakeFiles/read_csv.dir/training_examples/read_csv.cpp.o"
+}
+]

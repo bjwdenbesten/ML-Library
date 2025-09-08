@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/linear_reg1.dir/training_examples/linear_reg1.cpp.o -o linear_reg1  libMLLibrary.a

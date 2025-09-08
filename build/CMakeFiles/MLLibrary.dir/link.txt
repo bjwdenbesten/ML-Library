@@ -1,2 +1,0 @@
-/usr/bin/ar qc libMLLibrary.a CMakeFiles/MLLibrary.dir/src/linearRegression.cpp.o CMakeFiles/MLLibrary.dir/src/utils.cpp.o
-/usr/bin/ranlib libMLLibrary.a

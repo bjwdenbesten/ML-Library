@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/read_csv.dir/training_examples/read_csv.cpp.o -o read_csv  libMLLibrary.a

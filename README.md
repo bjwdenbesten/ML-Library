@@ -1,6 +1,6 @@
 # nanoML: ML Linear-Regression library in C++
 ## Library functions
-#### load_csv(, target_col): loads a csv into a 2d vector of doubles. Specify dependent / output variables with the second parameter.
+#### load_csv(filepath, target_col): loads a csv into a 2d vector of doubles. Specify dependent / output variables with the second parameter.
 #### write_csv(filepath, data): writes data to a csv.
 #### train(X, Y): where X is the design matrix, and Y is the target matrix.
 #### predict(X, Y): where X is the result of train, and Y is the data to be predicted.

@@ -13,8 +13,14 @@
 },
 {
   "directory": "/Users/benjamindenbesten/Desktop/ml-lib/build",
-  "command": "/usr/bin/clang++  -I/Users/benjamindenbesten/Desktop/ml-lib/include -isystem /opt/homebrew/include/eigen3 -g -std=gnu++20 -arch arm64 -o CMakeFiles/read_csv.dir/training_examples/read_csv.cpp.o -c /Users/benjamindenbesten/Desktop/ml-lib/training_examples/read_csv.cpp",
-  "file": "/Users/benjamindenbesten/Desktop/ml-lib/training_examples/read_csv.cpp",
-  "output": "CMakeFiles/read_csv.dir/training_examples/read_csv.cpp.o"
+  "command": "/usr/bin/clang++  -I/Users/benjamindenbesten/Desktop/ml-lib/include -isystem /opt/homebrew/include/eigen3 -g -std=gnu++20 -arch arm64 -o CMakeFiles/linear_reg1.dir/training_examples/linear_reg1.cpp.o -c /Users/benjamindenbesten/Desktop/ml-lib/training_examples/linear_reg1.cpp",
+  "file": "/Users/benjamindenbesten/Desktop/ml-lib/training_examples/linear_reg1.cpp",
+  "output": "CMakeFiles/linear_reg1.dir/training_examples/linear_reg1.cpp.o"
+},
+{
+  "directory": "/Users/benjamindenbesten/Desktop/ml-lib/build",
+  "command": "/usr/bin/clang++  -I/Users/benjamindenbesten/Desktop/ml-lib/include -isystem /opt/homebrew/include/eigen3 -g -std=gnu++20 -arch arm64 -o CMakeFiles/linear_reg2.dir/training_examples/linear_reg2.cpp.o -c /Users/benjamindenbesten/Desktop/ml-lib/training_examples/linear_reg2.cpp",
+  "file": "/Users/benjamindenbesten/Desktop/ml-lib/training_examples/linear_reg2.cpp",
+  "output": "CMakeFiles/linear_reg2.dir/training_examples/linear_reg2.cpp.o"
 }
 ]

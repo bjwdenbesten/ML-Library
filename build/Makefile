@@ -130,17 +130,30 @@ MLLibrary/fast:
 .PHONY : MLLibrary/fast
 
 #=============================================================================
-# Target rules for targets named read_csv
+# Target rules for targets named linear_reg1
 
 # Build rule for target.
-read_csv: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 read_csv
-.PHONY : read_csv
+linear_reg1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linear_reg1
+.PHONY : linear_reg1
 
 # fast build rule for target.
-read_csv/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_csv.dir/build.make CMakeFiles/read_csv.dir/build
-.PHONY : read_csv/fast
+linear_reg1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_reg1.dir/build.make CMakeFiles/linear_reg1.dir/build
+.PHONY : linear_reg1/fast
+
+#=============================================================================
+# Target rules for targets named linear_reg2
+
+# Build rule for target.
+linear_reg2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linear_reg2
+.PHONY : linear_reg2
+
+# fast build rule for target.
+linear_reg2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_reg2.dir/build.make CMakeFiles/linear_reg2.dir/build
+.PHONY : linear_reg2/fast
 
 src/linearRegression.o: src/linearRegression.cpp.o
 .PHONY : src/linearRegression.o
@@ -190,29 +203,53 @@ src/utils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLLibrary.dir/build.make CMakeFiles/MLLibrary.dir/src/utils.cpp.s
 .PHONY : src/utils.cpp.s
 
-training_examples/read_csv.o: training_examples/read_csv.cpp.o
-.PHONY : training_examples/read_csv.o
+training_examples/linear_reg1.o: training_examples/linear_reg1.cpp.o
+.PHONY : training_examples/linear_reg1.o
 
 # target to build an object file
-training_examples/read_csv.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_csv.dir/build.make CMakeFiles/read_csv.dir/training_examples/read_csv.cpp.o
-.PHONY : training_examples/read_csv.cpp.o
+training_examples/linear_reg1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_reg1.dir/build.make CMakeFiles/linear_reg1.dir/training_examples/linear_reg1.cpp.o
+.PHONY : training_examples/linear_reg1.cpp.o
 
-training_examples/read_csv.i: training_examples/read_csv.cpp.i
-.PHONY : training_examples/read_csv.i
+training_examples/linear_reg1.i: training_examples/linear_reg1.cpp.i
+.PHONY : training_examples/linear_reg1.i
 
 # target to preprocess a source file
-training_examples/read_csv.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_csv.dir/build.make CMakeFiles/read_csv.dir/training_examples/read_csv.cpp.i
-.PHONY : training_examples/read_csv.cpp.i
+training_examples/linear_reg1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_reg1.dir/build.make CMakeFiles/linear_reg1.dir/training_examples/linear_reg1.cpp.i
+.PHONY : training_examples/linear_reg1.cpp.i
 
-training_examples/read_csv.s: training_examples/read_csv.cpp.s
-.PHONY : training_examples/read_csv.s
+training_examples/linear_reg1.s: training_examples/linear_reg1.cpp.s
+.PHONY : training_examples/linear_reg1.s
 
 # target to generate assembly for a file
-training_examples/read_csv.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_csv.dir/build.make CMakeFiles/read_csv.dir/training_examples/read_csv.cpp.s
-.PHONY : training_examples/read_csv.cpp.s
+training_examples/linear_reg1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_reg1.dir/build.make CMakeFiles/linear_reg1.dir/training_examples/linear_reg1.cpp.s
+.PHONY : training_examples/linear_reg1.cpp.s
+
+training_examples/linear_reg2.o: training_examples/linear_reg2.cpp.o
+.PHONY : training_examples/linear_reg2.o
+
+# target to build an object file
+training_examples/linear_reg2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_reg2.dir/build.make CMakeFiles/linear_reg2.dir/training_examples/linear_reg2.cpp.o
+.PHONY : training_examples/linear_reg2.cpp.o
+
+training_examples/linear_reg2.i: training_examples/linear_reg2.cpp.i
+.PHONY : training_examples/linear_reg2.i
+
+# target to preprocess a source file
+training_examples/linear_reg2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_reg2.dir/build.make CMakeFiles/linear_reg2.dir/training_examples/linear_reg2.cpp.i
+.PHONY : training_examples/linear_reg2.cpp.i
+
+training_examples/linear_reg2.s: training_examples/linear_reg2.cpp.s
+.PHONY : training_examples/linear_reg2.s
+
+# target to generate assembly for a file
+training_examples/linear_reg2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_reg2.dir/build.make CMakeFiles/linear_reg2.dir/training_examples/linear_reg2.cpp.s
+.PHONY : training_examples/linear_reg2.cpp.s
 
 # Help Target
 help:
@@ -223,16 +260,20 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MLLibrary"
-	@echo "... read_csv"
+	@echo "... linear_reg1"
+	@echo "... linear_reg2"
 	@echo "... src/linearRegression.o"
 	@echo "... src/linearRegression.i"
 	@echo "... src/linearRegression.s"
 	@echo "... src/utils.o"
 	@echo "... src/utils.i"
 	@echo "... src/utils.s"
-	@echo "... training_examples/read_csv.o"
-	@echo "... training_examples/read_csv.i"
-	@echo "... training_examples/read_csv.s"
+	@echo "... training_examples/linear_reg1.o"
+	@echo "... training_examples/linear_reg1.i"
+	@echo "... training_examples/linear_reg1.s"
+	@echo "... training_examples/linear_reg2.o"
+	@echo "... training_examples/linear_reg2.i"
+	@echo "... training_examples/linear_reg2.s"
 .PHONY : help
 
 

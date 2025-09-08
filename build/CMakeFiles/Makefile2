@@ -64,12 +64,14 @@ CMAKE_BINARY_DIR = /Users/benjamindenbesten/Desktop/ml-lib/build
 
 # The main recursive "all" target.
 all: CMakeFiles/MLLibrary.dir/all
-all: CMakeFiles/read_csv.dir/all
+all: CMakeFiles/linear_reg1.dir/all
+all: CMakeFiles/linear_reg2.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/MLLibrary.dir/codegen
-codegen: CMakeFiles/read_csv.dir/codegen
+codegen: CMakeFiles/linear_reg1.dir/codegen
+codegen: CMakeFiles/linear_reg2.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -78,7 +80,8 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/MLLibrary.dir/clean
-clean: CMakeFiles/read_csv.dir/clean
+clean: CMakeFiles/linear_reg1.dir/clean
+clean: CMakeFiles/linear_reg2.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -114,36 +117,68 @@ CMakeFiles/MLLibrary.dir/clean:
 .PHONY : CMakeFiles/MLLibrary.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/read_csv.dir
+# Target rules for target CMakeFiles/linear_reg1.dir
 
 # All Build rule for target.
-CMakeFiles/read_csv.dir/all: CMakeFiles/MLLibrary.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_csv.dir/build.make CMakeFiles/read_csv.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_csv.dir/build.make CMakeFiles/read_csv.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/benjamindenbesten/Desktop/ml-lib/build/CMakeFiles --progress-num=4,5 "Built target read_csv"
-.PHONY : CMakeFiles/read_csv.dir/all
+CMakeFiles/linear_reg1.dir/all: CMakeFiles/MLLibrary.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_reg1.dir/build.make CMakeFiles/linear_reg1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_reg1.dir/build.make CMakeFiles/linear_reg1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/benjamindenbesten/Desktop/ml-lib/build/CMakeFiles --progress-num=4,5 "Built target linear_reg1"
+.PHONY : CMakeFiles/linear_reg1.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/read_csv.dir/rule: cmake_check_build_system
+CMakeFiles/linear_reg1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/benjamindenbesten/Desktop/ml-lib/build/CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/read_csv.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/linear_reg1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/benjamindenbesten/Desktop/ml-lib/build/CMakeFiles 0
-.PHONY : CMakeFiles/read_csv.dir/rule
+.PHONY : CMakeFiles/linear_reg1.dir/rule
 
 # Convenience name for target.
-read_csv: CMakeFiles/read_csv.dir/rule
-.PHONY : read_csv
+linear_reg1: CMakeFiles/linear_reg1.dir/rule
+.PHONY : linear_reg1
 
 # codegen rule for target.
-CMakeFiles/read_csv.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_csv.dir/build.make CMakeFiles/read_csv.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/benjamindenbesten/Desktop/ml-lib/build/CMakeFiles --progress-num=4,5 "Finished codegen for target read_csv"
-.PHONY : CMakeFiles/read_csv.dir/codegen
+CMakeFiles/linear_reg1.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_reg1.dir/build.make CMakeFiles/linear_reg1.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/benjamindenbesten/Desktop/ml-lib/build/CMakeFiles --progress-num=4,5 "Finished codegen for target linear_reg1"
+.PHONY : CMakeFiles/linear_reg1.dir/codegen
 
 # clean rule for target.
-CMakeFiles/read_csv.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_csv.dir/build.make CMakeFiles/read_csv.dir/clean
-.PHONY : CMakeFiles/read_csv.dir/clean
+CMakeFiles/linear_reg1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_reg1.dir/build.make CMakeFiles/linear_reg1.dir/clean
+.PHONY : CMakeFiles/linear_reg1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/linear_reg2.dir
+
+# All Build rule for target.
+CMakeFiles/linear_reg2.dir/all: CMakeFiles/MLLibrary.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_reg2.dir/build.make CMakeFiles/linear_reg2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_reg2.dir/build.make CMakeFiles/linear_reg2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/benjamindenbesten/Desktop/ml-lib/build/CMakeFiles --progress-num=6,7 "Built target linear_reg2"
+.PHONY : CMakeFiles/linear_reg2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/linear_reg2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/benjamindenbesten/Desktop/ml-lib/build/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/linear_reg2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/benjamindenbesten/Desktop/ml-lib/build/CMakeFiles 0
+.PHONY : CMakeFiles/linear_reg2.dir/rule
+
+# Convenience name for target.
+linear_reg2: CMakeFiles/linear_reg2.dir/rule
+.PHONY : linear_reg2
+
+# codegen rule for target.
+CMakeFiles/linear_reg2.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_reg2.dir/build.make CMakeFiles/linear_reg2.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/benjamindenbesten/Desktop/ml-lib/build/CMakeFiles --progress-num=6,7 "Finished codegen for target linear_reg2"
+.PHONY : CMakeFiles/linear_reg2.dir/codegen
+
+# clean rule for target.
+CMakeFiles/linear_reg2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_reg2.dir/build.make CMakeFiles/linear_reg2.dir/clean
+.PHONY : CMakeFiles/linear_reg2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

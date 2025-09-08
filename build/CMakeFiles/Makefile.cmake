@@ -60,5 +60,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/MLLibrary.dir/DependInfo.cmake"
-  "CMakeFiles/read_csv.dir/DependInfo.cmake"
+  "CMakeFiles/linear_reg1.dir/DependInfo.cmake"
+  "CMakeFiles/linear_reg2.dir/DependInfo.cmake"
   )

@@ -73,8 +73,6 @@ namespace ml {
             throw std::runtime_error("Couldn't open output file.");
         }
 
-
-
         for (size_t i = 0; i < data.size(); i++) {
             std::vector<double> &row = data[i];
             for (size_t j = 0; j < row.size(); j++) {

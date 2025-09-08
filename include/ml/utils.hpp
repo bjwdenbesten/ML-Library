@@ -3,8 +3,6 @@
 #include <vector>
 #include <string>
 
-#define NO_TARGET (-1)
-
 namespace ml {
     /* function to read a csv with a target column*/
     std::pair<std::vector<std::vector<double>>, std::vector<std::vector<double>>>
